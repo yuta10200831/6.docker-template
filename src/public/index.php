@@ -17,7 +17,7 @@ $animalsList = ["小動物" => $animals1, "大動物" => $animals2];
 $myOwnAnimalList = [];
 foreach ($animalsList as $animals) {
     foreach ($animals as $animalName => $animalNum) {
-        if ($animalNum > 1) {
+        if ($animalNum > 2) {
             $myOwnAnimalList[] = $animalName;
         }
     }
